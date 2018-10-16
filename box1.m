@@ -32,103 +32,11 @@ hold on
 plot(boxB.x(line1, pixel1), boxB.z(line1, pixel1), '-r')
 %plot(box1.x(line1, pixel1), box1.tacho_at_beg(line1), '-r')
 
-uiuii
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 plot(boxC.x(line3, pixel3), boxC.z(line3, pixel3), '-b')
 hold off
 
 %box1.y(line1, pixel1)
 input('Please Enter a Key');
-%meshgrid
-mesh
 plot3(boxA.x(line0, pixel0), boxA.y(line0, pixel0), boxA.z(line0, pixel0),'-b')
 input('Please Enter a Key');
 plot3(boxB.x(line1, pixel1), boxB.y(line1, pixel1), boxB.z(line1, pixel1),'-g')
